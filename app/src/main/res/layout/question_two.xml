@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/textView00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="    Question 2 "
+        android:textColor="#F50E0D0D"
+        android:layout_below="@id/textView00"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:text="How much does your phone cost?"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/RGQ2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        >
+    <RadioButton
+        android:id="@+id/RBQ2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Under 1000"
+        />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="1000-1999" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="2000-2999" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="3000-3999" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="More than 4000" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/Q2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#009688"
+        android:onClick="start"
+        android:text="Next" />
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

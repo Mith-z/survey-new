@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/textView00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your answers of the survey are: "
+        android:textColor="#F50E0D0D"
+        android:layout_below="@id/textView00"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="  "
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/EDTQ1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="26sp"
+        android:focusable="false"
+        />
+    <EditText
+        android:id="@+id/EDTQ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="26sp"
+        android:focusable="false"
+        />
+    <EditText
+        android:id="@+id/EDTQ3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="26sp"
+        android:focusable="false"
+        />
+    <EditText
+        android:id="@+id/EDTQ4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="26sp"
+        android:focusable="false"
+        />
+    <EditText
+        android:id="@+id/EDTQ5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="26sp"
+        android:focusable="false"
+        />
+
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#009688"
+        android:onClick="start"
+        android:text="Next Page" />
+
+
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

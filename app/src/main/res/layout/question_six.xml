@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/textView00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="    Question 6 "
+        android:textColor="#F50E0D0D"
+        android:layout_below="@id/textView00"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="What function do you expect your phone to have in the future?"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtQ6"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:selectAllOnFocus="false"
+        android:textCursorDrawable="@drawable/color"
+        android:theme="@style/MyEditText"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="  "
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/Q6"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#009688"
+        android:onClick="start"
+        android:text="Next" />
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

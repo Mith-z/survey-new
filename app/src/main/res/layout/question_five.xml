@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/textView00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="    Question 5 "
+        android:textColor="#F50E0D0D"
+        android:layout_below="@id/textView00"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:text="What functions are the most often used?"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/cbMusic5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Music Functions" />
+
+    <CheckBox
+        android:id="@+id/cbPhoto5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Photo Functions" />
+
+    <CheckBox
+        android:id="@+id/cbGame5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Game Functions" />
+
+    <CheckBox
+        android:id="@+id/cbBusy5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Business Functions(Work,Excel,ect)" />
+
+    <CheckBox
+        android:id="@+id/cbGPS5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="GPS Functions" />
+
+    <CheckBox
+        android:id="@+id/cbData5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Data Functions(Bluetooth,WLAN,ect)" />
+
+    <CheckBox
+        android:id="@+id/cbOther5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Others" />
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="  "
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/Q5"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#009688"
+        android:onClick="start"
+        android:text="Next" />
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
